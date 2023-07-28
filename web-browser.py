@@ -17,3 +17,4 @@ class Browser(QMainWindow):
         self.setWindowFlags(Qt.FramelessWindowHint)
         self.initUI()
         self.setMouseTracking(True)
+        self.drag_position = None
