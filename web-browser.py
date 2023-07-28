@@ -42,3 +42,4 @@ class Browser(QMainWindow):
         self.webview = QWebEngineView(self)
 
         # Create the address bar
+        self.address_bar = QLineEdit(self)
