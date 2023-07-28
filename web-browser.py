@@ -3,3 +3,4 @@ from PyQt5.QtWebEngineWidgets import QWebEngineView
 from PyQt5.QtCore import QUrl, Qt
 import sys
 
+BACKWARD_BUTTON = "<"
