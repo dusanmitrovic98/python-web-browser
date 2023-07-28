@@ -30,3 +30,4 @@ class Browser(QMainWindow):
         self.move(x, y)
 
     def initUI(self):
+        self.setWindowTitle('QuickShark Browser')
