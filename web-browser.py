@@ -4,3 +4,4 @@ from PyQt5.QtCore import QUrl, Qt
 import sys
 
 BACKWARD_BUTTON = "<"
+FORWARD_BUTTON = ">"
