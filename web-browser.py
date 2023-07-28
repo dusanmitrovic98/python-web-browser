@@ -16,3 +16,4 @@ class Browser(QMainWindow):
         super().__init__()
         self.setWindowFlags(Qt.FramelessWindowHint)
         self.initUI()
+        self.setMouseTracking(True)
