@@ -36,3 +36,4 @@ class Browser(QMainWindow):
             QMainWindow {
                 background-color: #202124;
             }
+        """)
