@@ -18,3 +18,4 @@ class Browser(QMainWindow):
         self.initUI()
         self.setMouseTracking(True)
         self.drag_position = None
+
