@@ -33,3 +33,4 @@ class Browser(QMainWindow):
         self.setWindowTitle('QuickShark Browser')
         self.setGeometry(100, 100, 800, 600)
         self.setStyleSheet("""
+            QMainWindow {
