@@ -46,3 +46,4 @@ class Browser(QMainWindow):
         self.address_bar.returnPressed.connect(self.load_url)
         self.address_bar.setStyleSheet("""
             QLineEdit {
+                background-color: #ffffff;
