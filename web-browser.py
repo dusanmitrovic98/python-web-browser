@@ -5,3 +5,4 @@ import sys
 
 BACKWARD_BUTTON = "<"
 FORWARD_BUTTON = ">"
+MINIMIZE_BUTTON = "-"
