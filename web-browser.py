@@ -26,3 +26,4 @@ class Browser(QMainWindow):
         x = (screen.width() - self.width()) // 2
         y = (screen.height() - self.height()) // 2
 
+        # Move the window to the center of the screen
