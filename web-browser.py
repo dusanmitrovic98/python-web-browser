@@ -47,3 +47,4 @@ class Browser(QMainWindow):
         self.address_bar.setStyleSheet("""
             QLineEdit {
                 background-color: #ffffff;
+                color: #000000;
