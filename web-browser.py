@@ -54,3 +54,4 @@ class Browser(QMainWindow):
                 padding: 5px;
                 height: 15px;
             }
+
