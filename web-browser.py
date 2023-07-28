@@ -38,3 +38,4 @@ class Browser(QMainWindow):
             }
         """)
 
+        # Create the QWebEngineView
