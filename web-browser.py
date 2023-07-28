@@ -23,3 +23,4 @@ class Browser(QMainWindow):
         screen = QDesktopWidget().screenGeometry()
 
         # Calculate the center point of the screen
+        x = (screen.width() - self.width()) // 2
