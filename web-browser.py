@@ -28,3 +28,4 @@ class Browser(QMainWindow):
 
         # Move the window to the center of the screen
         self.move(x, y)
+
