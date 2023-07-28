@@ -55,3 +55,4 @@ class Browser(QMainWindow):
                 height: 15px;
             }
 
+            QLineEdit:focus {
