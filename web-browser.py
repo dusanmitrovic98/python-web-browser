@@ -48,3 +48,4 @@ class Browser(QMainWindow):
             QLineEdit {
                 background-color: #ffffff;
                 color: #000000;
+                font-size: 12px;
