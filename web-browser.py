@@ -51,3 +51,4 @@ class Browser(QMainWindow):
                 font-size: 12px;
                 border: 1px solid #cccccc;
                 border-radius: 5px;
+                padding: 5px;
