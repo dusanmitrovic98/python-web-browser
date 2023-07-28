@@ -37,3 +37,4 @@ class Browser(QMainWindow):
                 background-color: #202124;
             }
         """)
+
