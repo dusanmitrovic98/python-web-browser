@@ -44,3 +44,4 @@ class Browser(QMainWindow):
         # Create the address bar
         self.address_bar = QLineEdit(self)
         self.address_bar.returnPressed.connect(self.load_url)
+        self.address_bar.setStyleSheet("""
