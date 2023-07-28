@@ -34,3 +34,4 @@ class Browser(QMainWindow):
         self.setGeometry(100, 100, 800, 600)
         self.setStyleSheet("""
             QMainWindow {
+                background-color: #202124;
