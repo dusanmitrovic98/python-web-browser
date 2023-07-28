@@ -50,3 +50,4 @@ class Browser(QMainWindow):
                 color: #000000;
                 font-size: 12px;
                 border: 1px solid #cccccc;
+                border-radius: 5px;
