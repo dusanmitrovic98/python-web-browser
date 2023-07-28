@@ -49,3 +49,4 @@ class Browser(QMainWindow):
                 background-color: #ffffff;
                 color: #000000;
                 font-size: 12px;
+                border: 1px solid #cccccc;
