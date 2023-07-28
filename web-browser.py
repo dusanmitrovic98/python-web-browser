@@ -20,3 +20,4 @@ class Browser(QMainWindow):
         self.drag_position = None
 
         # self.showMaximized()
+        screen = QDesktopWidget().screenGeometry()
