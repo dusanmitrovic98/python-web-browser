@@ -32,3 +32,4 @@ class Browser(QMainWindow):
     def initUI(self):
         self.setWindowTitle('QuickShark Browser')
         self.setGeometry(100, 100, 800, 600)
+        self.setStyleSheet("""
