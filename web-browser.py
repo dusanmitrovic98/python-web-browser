@@ -19,3 +19,4 @@ class Browser(QMainWindow):
         self.setMouseTracking(True)
         self.drag_position = None
 
+        # self.showMaximized()
