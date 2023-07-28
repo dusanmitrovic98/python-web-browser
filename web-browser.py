@@ -22,3 +22,4 @@ class Browser(QMainWindow):
         # self.showMaximized()
         screen = QDesktopWidget().screenGeometry()
 
+        # Calculate the center point of the screen
