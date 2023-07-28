@@ -41,3 +41,4 @@ class Browser(QMainWindow):
         # Create the QWebEngineView
         self.webview = QWebEngineView(self)
 
+        # Create the address bar
