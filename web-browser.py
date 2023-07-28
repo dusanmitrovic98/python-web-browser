@@ -11,3 +11,4 @@ MAXIMIZE_BUTTON = "⇑"
 CLOSE_BUTTON = "x"
 
 
+class Browser(QMainWindow):
