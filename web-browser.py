@@ -24,3 +24,4 @@ class Browser(QMainWindow):
 
         # Calculate the center point of the screen
         x = (screen.width() - self.width()) // 2
+        y = (screen.height() - self.height()) // 2
