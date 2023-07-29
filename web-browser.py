@@ -83,3 +83,4 @@ class Browser(QMainWindow):
         """)
         self.progress_bar.hide()
 
+        # Get the screen resolution
