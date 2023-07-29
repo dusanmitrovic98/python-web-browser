@@ -78,3 +78,4 @@ class Browser(QMainWindow):
             QProgressBar::chunk {
                 background-color: red;
                 width: 5px;
+                margin: 0px;
