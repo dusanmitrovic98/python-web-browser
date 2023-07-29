@@ -61,3 +61,4 @@ class Browser(QMainWindow):
             }
         """)
         self.forward_button.clicked.connect(self.webview.forward)
+
