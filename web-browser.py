@@ -82,3 +82,4 @@ class Browser(QMainWindow):
             }
         """)
         self.progress_bar.hide()
+
