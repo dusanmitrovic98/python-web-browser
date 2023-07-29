@@ -56,3 +56,4 @@ class Browser(QMainWindow):
             }
 
             QLineEdit:focus {
+            QPushButton:pressed {
