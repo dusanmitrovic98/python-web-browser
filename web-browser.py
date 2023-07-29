@@ -60,3 +60,4 @@ class Browser(QMainWindow):
                 background-color: #004499;
             }
         """)
+        self.forward_button.clicked.connect(self.webview.forward)
