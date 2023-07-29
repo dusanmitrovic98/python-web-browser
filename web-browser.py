@@ -70,3 +70,4 @@ class Browser(QMainWindow):
         self.progress_bar.setStyleSheet("""
             QProgressBar {
             border: none;
+            background-color: grey;
