@@ -69,3 +69,4 @@ class Browser(QMainWindow):
         self.progress_bar.setTextVisible(False)
         self.progress_bar.setStyleSheet("""
             QProgressBar {
+            border: none;
