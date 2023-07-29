@@ -80,3 +80,4 @@ class Browser(QMainWindow):
                 width: 5px;
                 margin: 0px;
             }
+        """)
