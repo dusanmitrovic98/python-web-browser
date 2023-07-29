@@ -58,3 +58,4 @@ class Browser(QMainWindow):
             QLineEdit:focus {
             QPushButton:pressed {
                 background-color: #004499;
+            }
