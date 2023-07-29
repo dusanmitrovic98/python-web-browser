@@ -74,3 +74,4 @@ class Browser(QMainWindow):
             height: 5px;
             border-radius: 2.5px;
             }
+
