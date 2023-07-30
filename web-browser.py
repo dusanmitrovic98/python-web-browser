@@ -105,3 +105,4 @@ class Browser(QMainWindow):
         self.forward_button.clicked.connect(self.webview.forward)
 
         # Create the progress bar
+        self.progress_bar = QProgressBar(self)
