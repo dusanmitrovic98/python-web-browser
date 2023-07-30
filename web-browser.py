@@ -116,3 +116,4 @@ class Browser(QMainWindow):
             background-color: grey;
             height: 5px;
             border-radius: 2.5px;
+            }
