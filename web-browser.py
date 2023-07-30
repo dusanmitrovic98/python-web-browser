@@ -177,3 +177,4 @@ class Browser(QMainWindow):
                     background-color: #004499;
                 }
             """)
+        self.minimize_button.clicked.connect(self.showMinimized)
