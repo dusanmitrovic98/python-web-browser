@@ -160,3 +160,4 @@ class Browser(QMainWindow):
         self.minimize_button = QPushButton(MINIMIZE_BUTTON, self)
         self.minimize_button.setStyleSheet("""
                 QPushButton {
+                    height: 13px;
