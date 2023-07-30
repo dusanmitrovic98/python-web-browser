@@ -130,3 +130,4 @@ class Browser(QMainWindow):
         screen = QDesktopWidget().screenGeometry()
         # x = 0
         # y = 0
+        # self.progress_bar.move(x, y)
