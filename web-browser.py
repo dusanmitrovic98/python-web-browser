@@ -106,3 +106,4 @@ class Browser(QMainWindow):
 
         # Create the progress bar
         self.progress_bar = QProgressBar(self)
+        self.progress_bar = QProgressBar(self)
