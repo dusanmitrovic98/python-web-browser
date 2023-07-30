@@ -141,3 +141,4 @@ class Browser(QMainWindow):
         # Connect the webview's loadProgress signal to the update_progress_bar method
         self.webview.loadProgress.connect(self.update_progress_bar)
 
+        # Connect the webview's loadFinished signal to the hide_progress_bar method
