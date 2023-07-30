@@ -148,3 +148,4 @@ class Browser(QMainWindow):
         self.webview.urlChanged.connect(self.update_url)
 
         sidebar_layout = QHBoxLayout()
+        # sidebar_layout.addWidget(self.sidebar)
