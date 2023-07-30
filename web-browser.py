@@ -157,3 +157,4 @@ class Browser(QMainWindow):
         nav_layout.addWidget(self.address_bar)
 
         # Create the minimize, maximize, and close buttons
+        self.minimize_button = QPushButton(MINIMIZE_BUTTON, self)
