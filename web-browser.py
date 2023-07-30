@@ -135,3 +135,4 @@ class Browser(QMainWindow):
         self.progress_bar.setFixedHeight(4)
         self.progress_bar.setFixedWidth(screen.width())
 
+        # Connect the webview's loadStarted signal to the show_progress_bar method
