@@ -159,3 +159,4 @@ class Browser(QMainWindow):
         # Create the minimize, maximize, and close buttons
         self.minimize_button = QPushButton(MINIMIZE_BUTTON, self)
         self.minimize_button.setStyleSheet("""
+                QPushButton {
