@@ -124,3 +124,4 @@ class Browser(QMainWindow):
                 margin: 0px;
             }
         """)
+        self.progress_bar.hide()
