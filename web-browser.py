@@ -153,3 +153,4 @@ class Browser(QMainWindow):
         # Create a horizontal layout for the address bar and buttons
         nav_layout = QHBoxLayout()
         nav_layout.addWidget(self.back_button)
+        nav_layout.addWidget(self.forward_button)
