@@ -155,3 +155,4 @@ class Browser(QMainWindow):
         nav_layout.addWidget(self.back_button)
         nav_layout.addWidget(self.forward_button)
         nav_layout.addWidget(self.address_bar)
+
