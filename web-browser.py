@@ -122,3 +122,4 @@ class Browser(QMainWindow):
                 background-color: red;
                 width: 5px;
                 margin: 0px;
+            }
