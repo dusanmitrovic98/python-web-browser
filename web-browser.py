@@ -98,3 +98,4 @@ class Browser(QMainWindow):
                 background-color: #505254;
             }
 
+            QPushButton:pressed {
