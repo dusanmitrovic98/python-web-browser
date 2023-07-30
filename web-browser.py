@@ -118,3 +118,4 @@ class Browser(QMainWindow):
             border-radius: 2.5px;
             }
 
+            QProgressBar::chunk {
