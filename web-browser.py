@@ -131,3 +131,4 @@ class Browser(QMainWindow):
         # x = 0
         # y = 0
         # self.progress_bar.move(x, y)
+
