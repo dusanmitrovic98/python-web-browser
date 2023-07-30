@@ -144,3 +144,4 @@ class Browser(QMainWindow):
         # Connect the webview's loadFinished signal to the hide_progress_bar method
         self.webview.loadFinished.connect(self.hide_progress_bar)
 
+        # Connect the webview's urlChanged signal to the update_url method
