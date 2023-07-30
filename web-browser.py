@@ -114,3 +114,4 @@ class Browser(QMainWindow):
             QProgressBar {
             border: none;
             background-color: grey;
+            height: 5px;
