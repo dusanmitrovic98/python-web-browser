@@ -133,3 +133,4 @@ class Browser(QMainWindow):
         # self.progress_bar.move(x, y)
 
         self.progress_bar.setFixedHeight(4)
+        self.progress_bar.setFixedWidth(screen.width())
