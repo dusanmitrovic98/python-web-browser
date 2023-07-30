@@ -129,3 +129,4 @@ class Browser(QMainWindow):
         # Get the screen resolution
         screen = QDesktopWidget().screenGeometry()
         # x = 0
+        # y = 0
