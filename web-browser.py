@@ -90,3 +90,4 @@ class Browser(QMainWindow):
                 color: white;
                 border: none;
                 border-radius: 5px;
+                padding: 5px;
