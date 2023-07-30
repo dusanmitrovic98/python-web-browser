@@ -86,3 +86,4 @@ class Browser(QMainWindow):
         # Get the screen resolution
             QPushButton {
                 height: 13px;
+                width: 10px;
