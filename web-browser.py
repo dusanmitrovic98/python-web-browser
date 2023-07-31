@@ -256,3 +256,4 @@ class Browser(QMainWindow):
         layout.addWidget(self.webview)
 
         # Set the layout for the main window
+        central_widget = QWidget(self)
