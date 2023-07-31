@@ -227,3 +227,4 @@ class Browser(QMainWindow):
                 QPushButton {
                     height: 13px;
                     width: 13px;
+                    color: white;
