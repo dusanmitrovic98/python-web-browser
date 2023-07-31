@@ -242,3 +242,4 @@ class Browser(QMainWindow):
                     background-color: #004499;
                 }
             """)
+        self.close_button.clicked.connect(self.close)
