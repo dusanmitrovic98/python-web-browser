@@ -204,3 +204,4 @@ class Browser(QMainWindow):
         self.maximize_button.setStyleSheet("""
                 QPushButton {
                     height: 13px;
+                    width: 10px;
