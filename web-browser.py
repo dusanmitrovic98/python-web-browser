@@ -197,3 +197,4 @@ class Browser(QMainWindow):
                 QPushButton:pressed {
                 QPushButton:pressed {
                     background-color: #004499;
+                }
