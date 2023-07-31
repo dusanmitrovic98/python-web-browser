@@ -220,3 +220,4 @@ class Browser(QMainWindow):
                     background-color: #004499;
                 }
             """)
+        self.maximize_button.clicked.connect(self.showMaximized)
