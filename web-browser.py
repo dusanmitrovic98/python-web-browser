@@ -199,3 +199,4 @@ class Browser(QMainWindow):
                     background-color: #004499;
                 }
             """)
+        self.restore_button.clicked.connect(self.showNormal)
