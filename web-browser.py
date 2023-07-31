@@ -182,3 +182,4 @@ class Browser(QMainWindow):
         self.restore_button.setStyleSheet("""
                 QPushButton {
                     height: 13px;
+                    width: 10px;
