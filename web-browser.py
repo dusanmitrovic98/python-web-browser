@@ -190,3 +190,4 @@ class Browser(QMainWindow):
                     font-size: 16px;
                 }
 
+                QPushButton:hover {
