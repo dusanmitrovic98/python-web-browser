@@ -179,3 +179,4 @@ class Browser(QMainWindow):
             """)
         self.minimize_button.clicked.connect(self.showMinimized)
         self.restore_button = QPushButton(RESTORE_NORMAL_BUTTON, self)
+        self.restore_button.setStyleSheet("""
