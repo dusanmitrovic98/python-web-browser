@@ -243,3 +243,4 @@ class Browser(QMainWindow):
                 }
             """)
         self.close_button.clicked.connect(self.close)
+
