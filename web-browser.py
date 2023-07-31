@@ -244,3 +244,4 @@ class Browser(QMainWindow):
             """)
         self.close_button.clicked.connect(self.close)
 
+        nav_layout.addWidget(self.minimize_button)
