@@ -265,3 +265,4 @@ class Browser(QMainWindow):
 
     def show_progress_bar(self):
         self.progress_bar.show()
+
