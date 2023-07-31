@@ -232,3 +232,4 @@ class Browser(QMainWindow):
                     border-radius: 5px;
                     padding: 5px;
                     font-size: 16px;
+                }
