@@ -195,3 +195,4 @@ class Browser(QMainWindow):
                 }
 
                 QPushButton:pressed {
+                QPushButton:pressed {
