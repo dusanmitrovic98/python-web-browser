@@ -223,3 +223,4 @@ class Browser(QMainWindow):
         self.maximize_button.clicked.connect(self.showMaximized)
         # self.maximize_button.clicked.connect(self.toggleFullscreen)
         self.close_button = QPushButton(CLOSE_BUTTON, self)
+        self.close_button.setStyleSheet("""
