@@ -269,3 +269,4 @@ class Browser(QMainWindow):
             """)
         self.restore_button.clicked.connect(self.showNormal)
         self.maximize_button = QPushButton(MAXIMIZE_BUTTON, self)
+        self.maximize_button.setStyleSheet("""
