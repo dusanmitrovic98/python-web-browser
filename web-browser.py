@@ -331,3 +331,4 @@ class Browser(QMainWindow):
         # Load the default URL
         self.webview.setUrl(QUrl('https://www.google.com'))
 
+    def show_progress_bar(self):
