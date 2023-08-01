@@ -328,3 +328,4 @@ class Browser(QMainWindow):
         central_widget.setLayout(layout)
         self.setCentralWidget(central_widget)
 
+        # Load the default URL
