@@ -358,3 +358,4 @@ class Browser(QMainWindow):
         # Update the text of the search bar with the URL of the current page
         self.address_bar.setText(url.toString())
 
+    def load_url(self):
