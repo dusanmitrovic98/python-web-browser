@@ -347,3 +347,4 @@ class Browser(QMainWindow):
             if event.button() == Qt.LeftButton:
                 self.drag_position = event.globalPos() - self.pos()
                 event.accept()
+
