@@ -341,3 +341,4 @@ class Browser(QMainWindow):
         self.progress_bar.setValue(value)
         if value == 100:
             self.hide_progress_bar()
+
