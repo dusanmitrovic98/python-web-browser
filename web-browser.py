@@ -335,3 +335,4 @@ class Browser(QMainWindow):
         self.progress_bar.show()
 
     def hide_progress_bar(self):
+        self.progress_bar.hide()
