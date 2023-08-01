@@ -330,3 +330,4 @@ class Browser(QMainWindow):
 
         # Load the default URL
         self.webview.setUrl(QUrl('https://www.google.com'))
+
