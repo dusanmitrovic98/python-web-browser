@@ -289,3 +289,4 @@ class Browser(QMainWindow):
                 }
             """)
         self.maximize_button.clicked.connect(self.showMaximized)
+        # self.maximize_button.clicked.connect(self.toggleFullscreen)
