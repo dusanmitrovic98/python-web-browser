@@ -348,3 +348,4 @@ class Browser(QMainWindow):
                 self.drag_position = event.globalPos() - self.pos()
                 event.accept()
 
+    def mouseMoveEvent(self, event):
