@@ -338,3 +338,4 @@ class Browser(QMainWindow):
         self.progress_bar.hide()
 
     def update_progress_bar(self, value):
+        self.progress_bar.setValue(value)
