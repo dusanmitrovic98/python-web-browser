@@ -267,3 +267,4 @@ class Browser(QMainWindow):
         self.progress_bar.show()
 
             """)
+        self.restore_button.clicked.connect(self.showNormal)
