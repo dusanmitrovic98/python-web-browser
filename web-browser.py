@@ -314,3 +314,4 @@ class Browser(QMainWindow):
 
         nav_layout.addWidget(self.minimize_button)
         nav_layout.addWidget(self.restore_button)
+        nav_layout.addWidget(self.maximize_button)
