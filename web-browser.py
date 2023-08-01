@@ -322,3 +322,4 @@ class Browser(QMainWindow):
         layout.addLayout(sidebar_layout)
         layout.addLayout(nav_layout)
         layout.addWidget(self.webview)
+
