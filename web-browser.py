@@ -325,3 +325,4 @@ class Browser(QMainWindow):
 
         # Set the layout for the main window
         central_widget = QWidget(self)
+        central_widget.setLayout(layout)
