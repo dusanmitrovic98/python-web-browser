@@ -275,3 +275,4 @@ class Browser(QMainWindow):
                     width: 10px;
                     color: white;
                     border: none;
+                    border-radius: 5px;
