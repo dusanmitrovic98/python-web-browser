@@ -359,3 +359,4 @@ class Browser(QMainWindow):
         self.address_bar.setText(url.toString())
 
     def load_url(self):
+        search_text = self.address_bar.text()
