@@ -355,3 +355,4 @@ class Browser(QMainWindow):
                 event.accept()
 
     def update_url(self, url):
+        # Update the text of the search bar with the URL of the current page
