@@ -344,3 +344,4 @@ class Browser(QMainWindow):
 
     def mousePressEvent(self, event):
         if not self.isFullScreen():
+            if event.button() == Qt.LeftButton:
