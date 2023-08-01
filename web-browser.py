@@ -317,3 +317,4 @@ class Browser(QMainWindow):
         nav_layout.addWidget(self.maximize_button)
         nav_layout.addWidget(self.close_button)
 
+        # Create a vertical layout for the webview and address bar
