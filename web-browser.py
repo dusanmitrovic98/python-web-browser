@@ -293,3 +293,4 @@ class Browser(QMainWindow):
         self.close_button = QPushButton(CLOSE_BUTTON, self)
         self.close_button.setStyleSheet("""
                 QPushButton {
+                    height: 13px;
