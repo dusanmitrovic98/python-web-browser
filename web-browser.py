@@ -296,3 +296,4 @@ class Browser(QMainWindow):
                     height: 13px;
                     width: 13px;
                     color: white;
+                    border: none;
