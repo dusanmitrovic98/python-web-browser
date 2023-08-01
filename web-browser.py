@@ -301,3 +301,4 @@ class Browser(QMainWindow):
                     padding: 5px;
                     font-size: 16px;
                 }
+
