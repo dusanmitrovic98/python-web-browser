@@ -349,3 +349,4 @@ class Browser(QMainWindow):
                 event.accept()
 
     def mouseMoveEvent(self, event):
+        if not self.isFullScreen():
