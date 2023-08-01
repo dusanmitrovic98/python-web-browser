@@ -354,3 +354,4 @@ class Browser(QMainWindow):
                 self.move(event.globalPos() - self.drag_position)
                 event.accept()
 
+    def update_url(self, url):
