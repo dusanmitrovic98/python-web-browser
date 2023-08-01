@@ -305,3 +305,4 @@ class Browser(QMainWindow):
                 QPushButton:hover {
                     background-color: #505254;
                 }
+
