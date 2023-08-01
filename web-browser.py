@@ -339,3 +339,4 @@ class Browser(QMainWindow):
 
     def update_progress_bar(self, value):
         self.progress_bar.setValue(value)
+        if value == 100:
