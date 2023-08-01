@@ -319,3 +319,4 @@ class Browser(QMainWindow):
 
         # Create a vertical layout for the webview and address bar
         layout = QVBoxLayout()
+        layout.addLayout(sidebar_layout)
