@@ -352,3 +352,4 @@ class Browser(QMainWindow):
         if not self.isFullScreen():
             if event.buttons() == Qt.LeftButton:
                 self.move(event.globalPos() - self.drag_position)
+                event.accept()
