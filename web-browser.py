@@ -343,3 +343,4 @@ class Browser(QMainWindow):
             self.hide_progress_bar()
 
     def mousePressEvent(self, event):
+        if not self.isFullScreen():
