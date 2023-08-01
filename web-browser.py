@@ -342,3 +342,4 @@ class Browser(QMainWindow):
         if value == 100:
             self.hide_progress_bar()
 
+    def mousePressEvent(self, event):
