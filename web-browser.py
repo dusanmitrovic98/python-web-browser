@@ -362,3 +362,4 @@ class Browser(QMainWindow):
         search_text = self.address_bar.text()
         url = QUrl(f'https://www.google.com/search?q={search_text}')
         self.webview.setUrl(url)
+
