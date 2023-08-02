@@ -56,34 +56,34 @@ class Browser(QMainWindow):
             }
 
             QLineEdit:focus {
+                border: 1px solid #3399ff;
+            }
+        """)
+
+        # Create the back and forward buttons
+        self.back_button = QPushButton(BACKWARD_BUTTON, self)
+        self.back_button.setStyleSheet("""
+            QPushButton {
+                height: 13px;
+                width: 10px;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                padding: 5px;
+                font-size: 16px;
+            }
+
+            QPushButton:hover {
+                background-color: #505254;
+            }
+
             QPushButton:pressed {
                 background-color: #004499;
             }
         """)
-        self.forward_button.clicked.connect(self.webview.forward)
-
-        # Create the progress bar
-        self.progress_bar = QProgressBar(self)
-        self.progress_bar.setRange(0, 100)
-        self.progress_bar.setValue(0)
-        self.progress_bar.setTextVisible(False)
-        self.progress_bar.setStyleSheet("""
-            QProgressBar {
-            border: none;
-            background-color: grey;
-            height: 5px;
-            border-radius: 2.5px;
-            }
-
-            QProgressBar::chunk {
-                background-color: red;
-                width: 5px;
-                margin: 0px;
-            }
-        """)
-        self.progress_bar.hide()
-
-        # Get the screen resolution
+        self.back_button.clicked.connect(self.webview.back)
+        self.forward_button = QPushButton(FORWARD_BUTTON, self)
+        self.forward_button.setStyleSheet("""
             QPushButton {
                 height: 13px;
                 width: 10px;
@@ -105,7 +105,6 @@ class Browser(QMainWindow):
         self.forward_button.clicked.connect(self.webview.forward)
 
         # Create the progress bar
-        self.progress_bar = QProgressBar(self)
         self.progress_bar = QProgressBar(self)
         self.progress_bar.setRange(0, 100)
         self.progress_bar.setValue(0)
@@ -178,6 +177,7 @@ class Browser(QMainWindow):
                 }
             """)
         self.minimize_button.clicked.connect(self.showMinimized)
+        # Create the restore down button
         self.restore_button = QPushButton(RESTORE_NORMAL_BUTTON, self)
         self.restore_button.setStyleSheet("""
                 QPushButton {
@@ -195,77 +195,8 @@ class Browser(QMainWindow):
                 }
 
                 QPushButton:pressed {
-                QPushButton:pressed {
                     background-color: #004499;
                 }
-            """)
-        self.restore_button.clicked.connect(self.showNormal)
-        self.maximize_button = QPushButton(MAXIMIZE_BUTTON, self)
-        self.maximize_button.setStyleSheet("""
-                QPushButton {
-                    height: 13px;
-                    width: 10px;
-                    color: white;
-                    border: none;
-                    border-radius: 5px;
-                    padding: 5px;
-                    font-size: 16px;
-                }
-
-                QPushButton:hover {
-                    background-color: #505254;
-                }
-
-                QPushButton:pressed {
-                    background-color: #004499;
-                }
-            """)
-        self.maximize_button.clicked.connect(self.showMaximized)
-        # self.maximize_button.clicked.connect(self.toggleFullscreen)
-        self.close_button = QPushButton(CLOSE_BUTTON, self)
-        self.close_button.setStyleSheet("""
-                QPushButton {
-                    height: 13px;
-                    width: 13px;
-                    color: white;
-                    border: none;
-                    border-radius: 5px;
-                    padding: 5px;
-                    font-size: 16px;
-                }
-
-                QPushButton:hover {
-                    background-color: #505254;
-                }
-
-                QPushButton:pressed {
-                    background-color: #004499;
-                }
-            """)
-        self.close_button.clicked.connect(self.close)
-
-        nav_layout.addWidget(self.minimize_button)
-        nav_layout.addWidget(self.restore_button)
-        nav_layout.addWidget(self.maximize_button)
-        nav_layout.addWidget(self.close_button)
-
-        # Create a vertical layout for the webview and address bar
-        layout = QVBoxLayout()
-        layout.addLayout(sidebar_layout)
-        layout.addLayout(nav_layout)
-        layout.addWidget(self.webview)
-
-        # Set the layout for the main window
-        central_widget = QWidget(self)
-        central_widget.setLayout(layout)
-        self.setCentralWidget(central_widget)
-
-        # Load the default URL
-        self.webview.setUrl(QUrl('https://www.google.com'))
-
-    def show_progress_bar(self):
-        self.progress_bar.show()
-
             """)
         self.restore_button.clicked.connect(self.showNormal)
         self.maximize_button = QPushButton(MAXIMIZE_BUTTON, self)
@@ -363,3 +294,8 @@ class Browser(QMainWindow):
         url = QUrl(f'https://www.google.com/search?q={search_text}')
         self.webview.setUrl(url)
 
+
+app = QApplication(sys.argv)
+browser = Browser()
+browser.show()
+sys.exit(app.exec_())
